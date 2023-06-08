@@ -8,7 +8,7 @@ components:
   -
     kind: Application
     name: react-app
-    gitRepo: 'https://github.com/himanshumps/quarkus-reactjs-mongod-crud.git'
+    gitRepo: 'https://github.com/himanshumps/quarkus-reactjs-postgres-crud.git'
     gitBranch: main
     gitApplicationPath: frontend
     dockerCompose:
@@ -28,7 +28,7 @@ components:
   -
     kind: Application
     name: quarkus-applicaton
-    gitRepo: 'https://github.com/himanshumps/quarkus-reactjs-mongod-crud.git'
+    gitRepo: 'https://github.com/himanshumps/quarkus-reactjs-postgres-crud.git'
     gitBranch: main
     gitApplicationPath: backend/quarkus-postgres-panache-crud
     dockerCompose:
