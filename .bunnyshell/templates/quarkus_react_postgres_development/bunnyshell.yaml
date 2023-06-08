@@ -1,6 +1,6 @@
 kind: Environment
 name: Quarkus, React and Postgres Application (Development)
-type: ephermal
+type: ephemeral
 environmentVariables:
   POSTGRES_PASSWORD: bns_secret(qHogxn5e)
   POSTGRES_USERNAME: bns_secret(postgres)
