@@ -1,5 +1,5 @@
 kind: Environment
-name: Quarkus, React and Postgres Application (Production)
+name: User Application developed in Quarkus, React and Postgres Application (Production)
 type: primary
 environmentVariables:
   POSTGRES_PASSWORD: bns_secret(qHogxn5e)

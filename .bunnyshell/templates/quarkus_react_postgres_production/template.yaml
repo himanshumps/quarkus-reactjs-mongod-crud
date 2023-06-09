@@ -16,7 +16,7 @@ stack:
       version: '3.1.0'
     - name: ReactJS
       version: '18.2.0'
-    - name: Node
+    - name: Nodejs
       version: '18'
     - name: Postgres
       version: '15.3.0'  
