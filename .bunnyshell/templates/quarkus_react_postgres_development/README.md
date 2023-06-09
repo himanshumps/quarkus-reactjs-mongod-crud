@@ -193,3 +193,10 @@ Quarkus also provides a ton of flags to customize the application behaviour. The
 | **quarkus.http.filter."filter".order**<br>**Environment variable:** QUARKUS_HTTP_FILTER__FILTER__ORDER| int | |
   
 The complete list of quarkus flag is available [here](https://quarkus.io/guides/all-config).
+
+Testing table
+<table border="1">
+	<tr>
+		<td>Test Content 1<br/>Test Content 2</td>
+	</tr>
+</table>
