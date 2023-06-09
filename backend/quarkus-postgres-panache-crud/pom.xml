@@ -56,11 +56,17 @@
             <artifactId>quarkus-jdbc-postgresql</artifactId>
             <version>${quarkus.platform.version}</version>
         </dependency>
-        <!--<dependency>
+
+        <dependency>
+            <groupId>io.quarkus</groupId>
+            <artifactId>quarkus-smallrye-openapi</artifactId>
+            <version>${quarkus.platform.version}</version>
+        </dependency>
+        <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-jdbc-h2</artifactId>
             <version>${quarkus.platform.version}</version>
-        </dependency>-->
+        </dependency>
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>

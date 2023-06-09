@@ -8,7 +8,7 @@ import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped
 public class UserRepository implements PanacheRepository<User> {
-  public User findById(String id) {
+  public User findById(Long id) {
     return find("id", id).firstResult();
   }
 }

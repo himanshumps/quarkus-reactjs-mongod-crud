@@ -32,36 +32,27 @@ public class UserController {
   @Path("/{id}")
   @Produces(MediaType.APPLICATION_JSON)
   public User getUser
-      (@PathParam("id") String id) {
+      (@PathParam("id") Long id) {
     return userRepository.findById(id);
   }
-    
-    /*
-    @GET
-    @Path("/{id}")
-    public Response find(@PathParam("id") String id) {
- 
-      Optional<User> findByIsbn = userRepository.findByIsbn(id);
-
-        return Response.ok(findByIsbn).build();
-    }
-    
-    */
 
   @PUT
   @Path("/{id}")
   @Consumes(MediaType.APPLICATION_JSON)
   @Produces(MediaType.APPLICATION_JSON)
-  public void updateUser
-      (@PathParam("id") String id, User user) {
+  public Response updateUser
+      (@PathParam("id") Long id, User user) {
 
     User entity = userRepository.findById(id);
     if (entity == null) {
       throw new NotFoundException();
     }
     // map all fields from the person parameter to the existing entity
-
-
+    entity.setEmailId(user.getEmailId());
+    entity.setFirstName(user.getFirstName());
+    entity.setLastName(user.getLastName());
+    userRepository.persist(entity);
+    return Response.status(Response.Status.NO_CONTENT).build();
   }
 
   @POST
@@ -74,7 +65,7 @@ public class UserController {
   @DELETE
   @Path("/{id}")
   @Transactional
-  public void deleteUser(@PathParam("id") String id) {
+  public void deleteUser(@PathParam("id") Long id) {
     User user = userRepository.findById(id);
     userRepository.delete(user);
   }
