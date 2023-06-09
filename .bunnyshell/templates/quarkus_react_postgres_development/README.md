@@ -94,7 +94,10 @@ Quarkus also provides a ton of flags to customize the application behaviour. The
 | Configuration property | Type| Default|
 |--|--|--|
 | **quarkus.http.cors**&#013;&#013;Enable the CORS filter.&#013;&#013;**Environment variable:** QUARKUS_HTTP_CORS| boolean|false|
-| **quarkus.http.port**&#013;The HTTP port&#013;**Environment variable:** QUARKUS_HTTP_PORT| int | 8080|
+| **quarkus.http.port
+The HTTP port
+**Environment variable:** QUARKUS_HTTP_PORT
+| int | 8080|
 | **quarkus.http.test-port**&#013;The HTTP port used to run tests&#013;**Environment variable:** QUARKUS_HTTP_TEST_PORT| int| 8081|
 | **quarkus.http.host**&#013;The HTTP host In dev/test mode this defaults to localhost, in prod mode this defaults to 0.0.0.0 Defaulting to 0.0.0.0 makes it easier to deploy Quarkus to container, however it is not suitable for dev/test mode as other people on the network can connect to your development machine.&#013;**Environment variable:** QUARKUS_HTTP_HOST| string | |
 | **quarkus.http.host-enabled**&#013;Enable listening to host:port&#013;**Environment variable:** QUARKUS_HTTP_HOST_ENABLED| boolean| true |
