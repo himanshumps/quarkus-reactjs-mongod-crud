@@ -1,6 +1,6 @@
-# Developer template (do not use for production)
+## Developer template (do not use for production)
   
-## Overview
+### Overview
   
 This Environment Template is a boilerplate for **creating a developer environment** based on a stack using Java 17 with [Quarkus](https://quarkus.io/) for exposing the REST API, basic [ReactJS](https://react.dev/) for frontend and [Postgres](https://www.postgresql.org/) as the database.
 
@@ -8,14 +8,14 @@ The interaction between the UI and the backend application is CORS enabled.
 
 The template created for Hackathon provides the Bunnyshell configuration composed of 3 Components (frontend + backend + database) and the CRUD application that demonstrates how the components work together to form an environment.
 
-## Application Flow Diagram
+### Application Flow Diagram
 
 ```mermaid
 graph LR
 UI(ReactJS UI)--> Java(Quarkus Application)--> DB(Postgres Database)
 ```
 
-## Environment overview
+### Environment overview
   
 This Environment Template contains 3 components:
   
@@ -27,7 +27,7 @@ and 1 persistent volume:
   
 - `postgres-volume` (128Mb disk space)
   
-## Technologies used:
+### Technologies used:
   
 ### Back-End:
   
@@ -42,7 +42,7 @@ and 1 persistent volume:
 - Axios 1.4.0 
 - Bootstrap 4.5.0
   
-## Images Used
+### Images Used
   
 - [Redhat UBI9 OpenJDK 19](https://catalog.redhat.com/software/containers/ubi9/openjdk-17/61ee7c26ed74b2ffb22b07f6)
   
