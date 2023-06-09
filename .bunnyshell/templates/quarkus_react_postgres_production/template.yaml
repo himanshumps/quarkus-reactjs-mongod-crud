@@ -13,13 +13,13 @@ stack:
     - name: Openjdk
       version: '17'
     - name: Quarkus
-      version: '3.1.0.Final'
+      version: '3.1.0'
     - name: ReactJS
       version: '18.2.0'
     - name: Node
       version: '18'
     - name: Postgres
-      version: '15.3'  
+      version: '15.3.0'  
     - name: RHEL UBI Image
       version: '9'    
 discoverable: true
