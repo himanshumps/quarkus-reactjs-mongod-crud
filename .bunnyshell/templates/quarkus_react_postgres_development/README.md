@@ -7,7 +7,14 @@ This Environment Template is a boilerplate for **creating a developer environmen
 The interaction between the UI and the backend application is CORS enabled.
 
 The template created for Hackathon provides the Bunnyshell configuration composed of 3 Components (frontend + backend + database) and the CRUD application that demonstrates how the components work together to form an environment.
-  
+
+## Application Flow Diagram
+
+```mermaid
+graph LR
+UI(ReactJS UI)--> Java(Quarkus Application)--> DB(Postgres Database)
+```
+
 ## Environment overview
   
 This Environment Template contains 3 components:
