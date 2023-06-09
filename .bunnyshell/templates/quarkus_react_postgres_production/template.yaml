@@ -1,12 +1,25 @@
-name: Quarkus Application (production profile)
-description: Quarkus Application (;production profile)
+name: Quarkus + ReactJS + Postgres Application (production profile)
+description: Ths is the production profile to spin up a new environment for running the basic user management CRUD application.
 tags:
-  - Java 8
-  - openjdk
-  - fatjar
-icons: [ 'java']
+  - Java
+  - Quarkus
+  - NodeJS
+  - ReactJS
+  - Fast JAR
+  - Postgres
+icons: [ 'java', 'quarkus', 'node', 'react', 'postgres']
 stack:
   packages:
     - name: Openjdk
-      version: '8'
+      version: '17'
+    - name: Quarkus
+      version: '3.1.0.Final'
+    - name: ReactJS
+      version: '18.2.0'
+    - name: Node
+      version: '18'
+    - name: Postgres
+      version: '15.3'  
+    - name: RHEL UBI Image
+      version: '9'    
 discoverable: true
