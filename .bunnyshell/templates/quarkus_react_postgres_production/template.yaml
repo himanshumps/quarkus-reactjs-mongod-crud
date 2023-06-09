@@ -7,7 +7,7 @@ tags:
   - ReactJS
   - Fast JAR
   - Postgres
-icons: [ 'java', 'quarkus', 'node', 'react', 'postgres']
+icons: [ 'java', 'quarkus', 'nodejs', 'react', 'postgres']
 stack:
   packages:
     - name: Openjdk

@@ -7,7 +7,7 @@ tags:
   - ReactJS
   - Fast JAR
   - Postgres
-icons: [ 'java', 'quarkus', 'node', 'react', 'postgres']
+icons: [ 'java', 'quarkus', 'nodejs', 'react', 'postgres']
 stack:
   packages:
     - name: Openjdk
@@ -16,7 +16,7 @@ stack:
       version: '3.1.0'
     - name: ReactJS
       version: '18.2.0'
-    - name: Nodejs
+    - name: Node
       version: '18'
     - name: Postgres
       version: '15.3.0'  
