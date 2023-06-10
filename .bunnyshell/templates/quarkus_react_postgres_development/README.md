@@ -1,8 +1,3 @@
-<style>
-    table {
-        width: 80%;
-    }
-</style>
 ## Developer template (do not use for production)
   
 ### Overview
