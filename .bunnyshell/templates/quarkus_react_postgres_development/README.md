@@ -42,6 +42,15 @@ and 1 persistent volume:
 - [Node 18 LTS Alpine](https://hub.docker.com/layers/library/node/18.12-alpine3.17/images/sha256-b375b98d1dcd56f5783efdd80a4d6ff5a0d6f3ce7921ec99c17851db6cba2a93?context=explore)
   
 - [Postgres 15.3 Alpine](https://hub.docker.com/layers/library/postgres/15.3-alpine3.18/images/sha256-58a4e7ae605e8e247180ebba1cc3758ab20677e9a5221ab3150a74f47938b8a1?context=explore)
+
+### Work Directory for backend
+
+`/home/default`
+
+### Command to start the quarkus application
+
+`mvn -Dquarkus.http.host=0.0.0.0 -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Dmaven.test.skip quarkus:dev`
+
   
 ## Customization of the image using environment variable
 
