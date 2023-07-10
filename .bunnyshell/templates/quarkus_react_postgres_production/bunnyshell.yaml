@@ -18,6 +18,7 @@ components:
           target: dev
       environment:
           REACT_APP_API_VAR: 'quarkus-applicaton-{{ env.base_domain }}'
+          NODE_ENV: production
       ports:
         - '8080:8080'
     hosts:
